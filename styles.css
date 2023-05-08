@@ -1,4 +1,4 @@
-@media only screen and (max-width : 1000px){
+@media only screen and (max-width : 1200px){
     
     .logo{
         padding: 0.5rem;
@@ -217,7 +217,7 @@
         font-size: 0.7rem;
         line-height: 23px;
         color: #1F2420;
-        padding-left: 3rem;
+        padding-left: 2rem;
         padding-right: 8rem;
         width: 100%;
     }
@@ -282,7 +282,7 @@
     }
 
     .testimonial-up-2{
-        margin: 0;
+        margin-top: 2rem;
     }
 
     .testimonial-text-description{
@@ -737,7 +737,7 @@
         font-size: 0.6rem;
         line-height: 14px;
         color: #F6FFFA;
-        padding-left: 3rem;
+        padding-left: 2rem;
         margin-right: 2rem;
         margin-top: 0;
         padding-top: 0;
@@ -752,6 +752,7 @@
         color: #FFFFFF;
         margin-top: 0.7rem;
         margin-bottom: 0;
+        width: fit-content;
     }
 
     .black{
@@ -773,10 +774,21 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
-    html{
-        overflow-x : hidden;
+
+    .safety{
+        max-width: 99%;
     }
+
+
+    a:link{
+        color: #395157;
+    }
+
+    .mobile-number{
+        color: white;
+    }
+    
+
 
 
 
@@ -784,7 +796,7 @@
 
 }
 
-@media only screen and (min-width : 1000px){
+@media only screen and (min-width : 1200px){
     .navbar{
         width: 100%;
         background: rgba(1, 175, 87, 0.4);
